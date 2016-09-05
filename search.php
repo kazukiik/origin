@@ -18,7 +18,7 @@ $data [] = $_POST['code'];
 
     $rec = $stmt->fetch(PDO::FETCH_ASSOC);
     $code = $rec['code'];
-    $nickname = $rec['nickname'];
+    $nickname = $rec['nickname']; 
     $email = $rec['email'];
     $content = $rec['content'];
     
